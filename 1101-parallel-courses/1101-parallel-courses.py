@@ -1,32 +1,27 @@
-from collections import deque
-
 class Solution:
-    def minimumSemesters(self, N: int, relations: List[List[int]]) -> int:
-        graph = {i: [] for i in range(1, N + 1)}
-        in_count = {i: 0 for i in range(1, N + 1)}  # or in-degree
-        for start_node, end_node in relations:
-            graph[start_node].append(end_node)
-            in_count[end_node] += 1
-
-        queue = deque()
+    def minimumSemesters(self, n: int, relations: List[List[int]]) -> int:
+        graph = {i : [] for i in range(1, n + 1)}
+        count = {i : 0 for  i in range(1, n + 1)}
+        for start, end in relations:
+            graph[start].append(end)
+            count[end] += 1
+        queue = deque([])
         for node in graph:
-            if in_count[node] == 0:
+            if count[node] == 0:
                 queue.append(node)
 
+        
         step = 0
         studied_count = 0
-        # start learning with BFS
         while queue:
-            # start new semester
+            size = len(queue)
             step += 1
-            for _ in range(len(queue)):
+            for _ in range(size):
                 node = queue.popleft()
                 studied_count += 1
-                end_nodes = graph[node]
-                for end_node in end_nodes:
-                    in_count[end_node] -= 1
-                    # if all prerequisite courses learned
-                    if in_count[end_node] == 0:
-                        queue.append(end_node)
+                for neighbor in graph[node]:
+                    count[neighbor] -= 1
+                    if count[neighbor] == 0:
+                        queue.append(neighbor)
+        return step if studied_count == n else -1
 
-        return step if studied_count == N else -1
