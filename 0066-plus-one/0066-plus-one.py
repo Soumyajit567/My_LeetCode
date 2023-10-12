@@ -15,7 +15,6 @@ class Solution:
         num = int(res)
         num += 1
         string = str(num)
-        # print(res)
         for k in range(len(string)):
             if k < len(digits):
                 digits[k] = int(string[k])
