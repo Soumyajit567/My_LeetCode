@@ -1,10 +1,15 @@
 class Solution:
-    @functools.cache
     def maxA(self, n: int) -> int:
-        if n <= 5:
-            return n
-        else:
-            return max(n, max(i * self.maxA(n - i - 1) for i in [3, 4, 5, 6]))
+        dp = [0] * (n + 1)
+    
+        for i in range(1, n + 1):
+            # Pressing 'A'
+            dp[i] = dp[i - 1] + 1
+            for j in range(2, i):
+                # Ctrl-A, Ctrl-C, then Ctrl-V several times
+                dp[i] = max(dp[i], dp[j - 2] * (i - j + 1))
+
+        return dp[n]
 
 """
 class Solution:
