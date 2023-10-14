@@ -18,34 +18,47 @@ class Solution:
         return dp[0]  # the result is the number of ways to print the array from the start of the string
 
 """
-Let's consider s = "1317" and k = 2000 for clarity:
+Initialization:
 
-We initialize our dp array with an extra space more than the length of s to handle the base case comfortably. So dp = [0, 0, 0, 0, 0] for n = 4 (length of "1317").
+dp = [0, 0, 0, 0, 1] (n = 4, length of "1317", and dp[n] = 1)
+Start of outer loop:
 
-The base case is when we have considered all characters in s, which can't form a number on their own, so dp[n] = 1 or dp[4] = 1. Now, dp = [0, 0, 0, 0, 1].
+Outer loop i goes from 3 to 0
+i = 3 ("7"):
 
-We start our iteration from the end of the string. The outer loop's index i goes from n-1 to 0, i.e., from 3 to 0 in this case.
+Inner loop j goes from 4 to 3
+num = 7, num <= k, dp[3] += dp[4]
+dp[3] = 0 + 1 = 1 after all inner loop iterations
+dp = [0, 0, 0, 1, 1]
+i = 2 ("1"):
 
-In each iteration of i, we build the number num by iterating through the rest of the string starting from i to n-1 (using index j), and we break the inner loop if num exceeds k.
+Inner loop j goes from 4 to 2
+num = 1, num <= k, dp[2] += dp[4]
+num = 17, num <= k, dp[2] += dp[3]
+dp[2] = 0 + 1 + 1 = 2 after all inner loop iterations
+dp = [0, 0, 2, 1, 1]
+i = 1 ("3"):
 
-Let's see how dp gets updated:
+Inner loop j goes from 4 to 1
+num = 3, num <= k, dp[1] += dp[4]
+num = 31, num <= k, dp[1] += dp[3]
+num = 317, num <= k, dp[1] += dp[2]
+dp[1] = 0 + 1 + 1 + 2 = 4 after all inner loop iterations
+dp = [0, 4, 2, 1, 1]
+i = 0 ("1"):
 
-For i = 3 ("7"): num will be 7, 17, 317, 1317 as j goes from 3 to 0. None exceed k, so we add dp[j+1] to dp[3] for each valid j, which gives dp[3] = 0 + 1 = 1.
+Inner loop j goes from 4 to 0
+num = 1, num <= k, dp[0] += dp[4]
+num = 13, num <= k, dp[0] += dp[3]
+num = 131, num <= k, dp[0] += dp[2]
+num = 1317, num <= k, dp[0] += dp[1]
+dp[0] = 0 + 1 + 1 + 2 + 4 = 8 after all inner loop iterations
+dp = [8, 4, 2, 1, 1]
+End of outer loop.
 
-For i = 2 ("1"): num will be 1, 17, 317. None exceed k, so we add dp[j+1] to dp[2], which gives dp[2] = 0 + 1 + 1 = 2.
+Final dp array: [8, 4, 2, 1, 1]
 
-For i = 1 ("3"): num will be 3, 31, 317. None exceed k, so we add dp[j+1] to dp[1], which gives dp[1] = 0 + 1 + 1 + 2 = 4.
-
-For i = 0 ("1"): num will be 1, 13, 131, 1317. None exceed k, so we add dp[j+1] to dp[0], which gives dp[0] = 0 + 1 + 1 + 2 + 4 = 8.
-
-So, the final dp array will be [8, 4, 2, 1, 1], and our answer is dp[0], which is 8.
-
-This represents the total number of ways you can partition the string "1317" into valid integers that don't exceed 2000. The "partitions" here aren't explicitly created but are represented by the different values that num takes as we iterate through s with i and j.
-
-
-
-
-
-
+The result is dp[0] = 8.
+This represents the total number of ways you can partition the string "1317" into sub-strings that are valid integers and do not exceed 2000. Each iteration of the inner loop essentially considers a different partitioning of the string, and the dp array accumulates the count of valid partitions.
 
 """
