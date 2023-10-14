@@ -3,35 +3,40 @@ class Solution:
         dp = {}
         n = len(cost)
         @cache
-        def memo(i, t):
-            if t <= 0:
+        def memo(i, j):
+            if j <= 0:
                 return 0
             elif i == n:
                 return float("inf")
-            elif (i, t) in dp:
-                return dp[(i, t)]
+            elif (i, j) in dp:
+                return dp[(i, j)]
             else:
-                paint = cost[i] +  memo(i + 1, t - 1 - time[i])
-                dont_paint = memo(i + 1, t)
-                return min(paint, dont_paint)
+                paid = cost[i] + memo(i + 1, j - 1 - time[i])
+                non_paid = memo(i + 1, j)
+                return min(paid,non_paid)
+        
+                  
 
         return memo(0, n)
 
-class Solution:
-    def paintWalls(self, cost: List[int], time: List[int]) -> int:
-        n = len(cost)
-        dp = [[0] * (n + 1) for _ in range(n + 1)]
-        
-        for i in range(1, n + 1):
-            dp[n][i] = inf
 
-        for i in range(n - 1, -1, -1):
-            for remain in range(1, n + 1):
-                paint = cost[i] + dp[i + 1][max(0, remain - 1 - time[i])]
-                dont_paint = dp[i + 1][remain]
-                dp[i][remain] = min(paint, dont_paint)
-        
-        return dp[0][n]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
