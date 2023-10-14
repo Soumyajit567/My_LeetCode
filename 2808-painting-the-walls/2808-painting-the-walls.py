@@ -1,6 +1,5 @@
 class Solution:
     def paintWalls(self, cost: List[int], time: List[int]) -> int:
-        dp = {}
         n = len(cost)
         @cache
         def memo(i, j):
@@ -8,13 +7,11 @@ class Solution:
                 return 0
             elif i == n:
                 return float("inf")
-            elif (i, j) in dp:
-                return dp[(i, j)]
             else:
                 paid = cost[i] + memo(i + 1, j - 1 - time[i])
                 non_paid = memo(i + 1, j)
                 return min(paid,non_paid)
-        
+          
                   
 
         return memo(0, n)
