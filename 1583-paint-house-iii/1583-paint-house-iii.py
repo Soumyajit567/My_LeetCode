@@ -21,11 +21,15 @@ class Solution:
 
             min_cost = MAX_COST
             if houses[house]:  # If the house is already painted
-                cost_if_same = memo(house + 1, target - (last_color != houses[house]), houses[house])
+                new_neighborhood = last_color != houses[house]
+                adjusted_target = target - (1 if new_neighborhood else 0)
+                cost_if_same = memo(house + 1, adjusted_target, houses[house])
                 min_cost = min(min_cost, cost_if_same)
             else:
                 for color in range(1, n + 1):
-                    cost_to_paint = cost[house][color - 1] + memo(house + 1, target - (last_color != color), color)
+                    new_color= last_color != color
+                    adjusted_color = target - (1 if new_color else 0)
+                    cost_to_paint = cost[house][color - 1] + memo(house + 1, adjusted_color, color)
                     min_cost = min(min_cost, cost_to_paint)
 
             # Store the result in 'dp' for future reference.
