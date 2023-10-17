@@ -1,7 +1,7 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         dp = {}  
-
+        @cache
         def memo(i):
 
             if i == amount:
