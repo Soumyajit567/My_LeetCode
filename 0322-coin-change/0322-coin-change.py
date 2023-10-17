@@ -1,22 +1,26 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        dp = {}
-        n = len(coins)
+        dp = {}  
+
         def memo(i):
-            if i == 0:
+
+            if i == amount:
                 return 0
-            elif i < 0:
+            if i > amount:
                 return -1
-            elif i in dp:
+            
+         
+            if i in dp:
                 return dp[i]
-            else:
-                min_coins = float("inf")
-                for coin in coins:
-                    res = memo(i - coin)
-                    if res >= 0:
-                        min_coins = min(min_coins, res + 1)
-            dp[i] = -1 if min_coins == float("inf") else min_coins
+
+            min_count = float("inf")  
+            
+            for coin in coins:
+                res = memo(i + coin)  
+                if res >= 0: 
+                    min_count = min(min_count, res + 1)  
+
+            dp[i] = -1 if min_count == float("inf") else min_count
             return dp[i]
 
-        return memo(amount)
-        
+        return memo(0) 
