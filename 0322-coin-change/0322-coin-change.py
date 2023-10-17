@@ -5,7 +5,7 @@ class Solution:
         def memo(i):
             if i == 0:
                 return 0
-            elif i < 1:
+            elif i < 0:
                 return -1
             elif i in dp:
                 return dp[i]
