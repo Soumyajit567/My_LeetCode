@@ -1,5 +1,22 @@
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:
+        roots = set(range(-1, n)) ^ (set(leftChild) | set(rightChild) | {-1})
+        if not roots:
+            return False
+        visited = set()
+        queue = deque([next(iter(roots))])
+        while queue:
+            if (node := queue.popleft()) in visited:
+                return False
+            visited.add(node)
+            for v in leftChild[node], rightChild[node]:
+                if v != -1:
+                    queue.append(v)
+        return len(visited) == n
+
+"""
+class Solution:
+    def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:
         indegree = defaultdict(int)
         
         for i in range(n): 
@@ -28,3 +45,4 @@ class Solution:
                     q.append(rightChild[curr])
 
         return len(visited) == n 
+"""
