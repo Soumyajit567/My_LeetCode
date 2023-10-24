@@ -1,5 +1,18 @@
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
+        max_so_far = -1
+        chunks = 0
+        for i, num in enumerate(arr):
+            max_so_far = max(max_so_far, num)
+            if max_so_far == i:
+                chunks += 1
+        return chunks
+
+
+
+"""
+class Solution:
+    def maxChunksToSorted(self, arr: List[int]) -> int:
         n = len(arr)
         
         left_max = [0] * n
@@ -22,3 +35,4 @@ class Solution:
                 chunks += 1
         
         return chunks
+"""
