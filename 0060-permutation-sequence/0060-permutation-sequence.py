@@ -20,6 +20,48 @@ class Solution:
         
         return ''.join(map(str, ans))
 
+"""
+## Problem Breakdown for n = 4, k = 9
+
+### Initial Setup
+- **numbers**: `[1, 2, 3, 4]`
+- **ans**: `""`
+- Adjust `k` to 0-index: `k = 9 - 1 = 8`
+- **factorial_list**: `[1, 1, 2, 6]` (Precomputed factorials for 0 to n-1)
+
+### Iteration 1
+- **fact**: `factorial_list[3] = 6`
+- **index**: `8 // 6 = 1`
+- Number at index 1 of `numbers`: `2`
+- Update **ans**: `ans = "2"`
+- Update **numbers**: `[1, 3, 4]`
+- Update **k**: `k = 8 % 6 = 2`
+
+### Iteration 2
+- **fact**: `factorial_list[2] = 2`
+- **index**: `2 // 2 = 1`
+- Number at index 1 of `numbers`: `3`
+- Update **ans**: `ans = "23"`
+- Update **numbers**: `[1, 4]`
+- Update **k**: `k = 2 % 2 = 0`
+
+### Iteration 3
+- **fact**: `factorial_list[1] = 1`
+- **index**: `0 // 1 = 0`
+- Number at index 0 of `numbers`: `1`
+- Update **ans**: `ans = "231"`
+- Update **numbers**: `[4]`
+- Update **k**: `k remains 0`
+
+### Iteration 4
+- Number at index 0 of `numbers`: `4` (Only number left)
+- Update **ans**: `ans = "2314"`
+
+### Final Result
+**ans** = "2314" (The 9th permutation of [1, 2, 3, 4])
+
+
+"""
 
 
 
