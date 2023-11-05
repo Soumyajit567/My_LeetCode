@@ -1,7 +1,7 @@
 class Solution:
     def maximumScoreAfterOperations(self, edges: List[List[int]], values: List[int]) -> int:
         n = len(values)
-        graph = [[] for _ in range(n)]
+        graph = collections.defaultdict(list)
         for u, v in edges:
             graph[u].append(v)
             graph[v].append(u)
@@ -41,3 +41,42 @@ class Solution:
         # The result for the root node will be in results[0]
         return results[0][0]
 
+"""
+class Solution:
+    def maximumScoreAfterOperations(self, edges: List[List[int]], values: List[int]) -> int:
+        
+        graph = collections.defaultdict(set)
+        for a, b in edges:
+            graph[a].add(b)
+            graph[b].add(a)
+        
+        def prune(cur):
+            for poss in graph[cur]:
+                graph[poss].remove(cur)
+                prune(poss)
+        prune(0)
+        
+        
+        @cache
+        def calc(node, there_is_up):
+            if there_is_up:
+                score = values[node]
+                for poss in graph[node]:
+                    score += calc(poss, True)
+                return score
+            else:
+                if len(graph[node]) == 0:
+                    return 0
+                else:
+                    a = values[node]
+                    b = 0
+                    for poss in graph[node]:
+                        a += calc(poss, False)
+                        b += calc(poss, True)
+                    return max(a, b)
+                
+        return calc(0, False)
+
+
+
+"""
