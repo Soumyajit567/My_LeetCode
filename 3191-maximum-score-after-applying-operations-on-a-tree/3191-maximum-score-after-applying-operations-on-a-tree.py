@@ -9,8 +9,8 @@ class Solution:
         stack = [(0, -1, True)]
         results = {i: (0, 0) for i in range(n)}
         visited = set()
-        new_set = set()
-        new_set.add(0)
+        tree_set = set()
+        tree_set.add(0)
 
         while stack:
             node, parent, is_first_time = stack.pop()
@@ -21,15 +21,15 @@ class Solution:
             if is_first_time:
                 stack.append((node, parent, False))  
                 for child in graph[node]:
-                        if child not in new_set:
+                        if child not in tree_set:
                             stack.append((child, node, True)) 
-                            new_set.add(child) 
+                            tree_set.add(child) 
             else:
                 visited.add(node)
                 val = values[node] if graph[node] != [parent] else 0
                 s = 0
                 for child in graph[node]:
-                    if child != parent:
+                    # if child != parent:
                         val += results[child][0]
                         s += results[child][1]
                 results[node] = (max(val, s), s + values[node])
