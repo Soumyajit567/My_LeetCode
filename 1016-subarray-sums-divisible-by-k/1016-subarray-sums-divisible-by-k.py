@@ -12,8 +12,6 @@ class Solution:
             
             if mod in prefix_mod_count:
                 count += prefix_mod_count[mod]
-            
-            if mod in prefix_mod_count:
                 prefix_mod_count[mod] += 1
             else:
                 prefix_mod_count[mod] = 1
