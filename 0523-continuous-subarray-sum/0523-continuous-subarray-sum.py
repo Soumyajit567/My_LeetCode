@@ -1,19 +1,20 @@
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
-        hashmap = {0 : -1}
-        _sum = 0
-        left = 0
-        right = 0
-        for i in range(len(nums)):
-            right = i
-            _sum += nums[right]
-            remainder = _sum % k
-            if remainder < 0:
-                remainder += k
-            if remainder in hashmap:
-                if i - hashmap[remainder] > 1:
+        prefix_mod_index = {0: -1}
+        total_sum = 0
+        
+        for i, num in enumerate(nums):
+            total_sum += num
+            mod = total_sum % k
+            
+           
+            if mod < 0:
+                mod += k
+                
+            if mod in prefix_mod_index:
+                if i - prefix_mod_index[mod] > 1:  
                     return True
             else:
-                hashmap[remainder] = i
-            
+                prefix_mod_index[mod] = i
+        
         return False
