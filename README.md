@@ -70,10 +70,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -82,4 +84,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
 <!---LeetCode Topics End-->
