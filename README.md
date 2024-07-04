@@ -85,4 +85,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
+## Hash Table
+|  |
+| ------- |
+| [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
+## String
+|  |
+| ------- |
+| [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
+## Sorting
+|  |
+| ------- |
+| [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
 <!---LeetCode Topics End-->
