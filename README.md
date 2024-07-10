@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Soumyajit567/My_LeetCode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 ## Matrix
 |  |
@@ -114,4 +115,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2645-pass-the-pillow](https://github.com/Soumyajit567/My_LeetCode/tree/master/2645-pass-the-pillow) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Soumyajit567/My_LeetCode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 <!---LeetCode Topics End-->
