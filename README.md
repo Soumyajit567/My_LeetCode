@@ -98,11 +98,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
+| [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 ## Array
 |  |
 | ------- |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Soumyajit567/My_LeetCode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
+| [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 ## Matrix
 |  |
 | ------- |
@@ -115,8 +117,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2645-pass-the-pillow](https://github.com/Soumyajit567/My_LeetCode/tree/master/2645-pass-the-pillow) |
+| [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Soumyajit567/My_LeetCode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
+## Stack
+|  |
+| ------- |
+| [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 <!---LeetCode Topics End-->
