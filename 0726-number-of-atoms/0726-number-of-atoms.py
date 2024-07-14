@@ -28,7 +28,7 @@ class Solution:
                 element = formula[i:j]
                 i = j
                 # Read the count
-                j = i
+                # j = i
                 while j < n and formula[j].isdigit():
                     j += 1
                 count = int(formula[i:j]) if i != j else 1
