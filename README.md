@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0726-number-of-atoms](https://github.com/Soumyajit567/My_LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
+| [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 ## String
 |  |
 | ------- |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Soumyajit567/My_LeetCode/tree/master/3482-construct-string-with-minimum-cost) |
+| [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 ## Matrix
 |  |
 | ------- |
@@ -137,4 +139,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3482-construct-string-with-minimum-cost](https://github.com/Soumyajit567/My_LeetCode/tree/master/3482-construct-string-with-minimum-cost) |
+## Prefix Sum
+|  |
+| ------- |
+| [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 <!---LeetCode Topics End-->
