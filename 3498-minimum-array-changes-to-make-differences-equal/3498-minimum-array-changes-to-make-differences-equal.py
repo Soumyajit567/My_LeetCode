@@ -1,5 +1,5 @@
 class Solution:
-    def minChanges(self, nums: List[int], k: int) -> int:      
+    def minChanges(self, nums: List[int], k: int) -> int:
         n = len(nums)
         n_diffs = math.ceil(n / 2)
 
@@ -28,4 +28,3 @@ class Solution:
             n_cost_2 += cost_1_threshold_counts[x]
         
         return min_cost
-                
