@@ -30,7 +30,7 @@ class Solution:
             distances = dijkstra(i)
             reachable_cities_count = sum(1 for d in distances if d <= distanceThreshold)
             
-            if reachable_cities_count < min_city_count or (reachable_cities_count == min_city_count and i > result_city):
+            if (reachable_cities_count < min_city_count or reachable_cities_count == min_city_count) and i > result_city:
                 min_city_count = reachable_cities_count
                 result_city = i
         
