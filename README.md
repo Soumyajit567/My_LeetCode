@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/Soumyajit567/My_LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2243-check-if-all-as-appears-before-all-bs](https://github.com/Soumyajit567/My_LeetCode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Soumyajit567/My_LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Soumyajit567/My_LeetCode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Sorting
