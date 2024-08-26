@@ -69,11 +69,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
 ## Breadth-First Search
@@ -83,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
 ## Hash Table
@@ -148,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/Soumyajit567/My_LeetCode/tree/master/0726-number-of-atoms) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
