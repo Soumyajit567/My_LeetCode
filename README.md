@@ -117,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/Soumyajit567/My_LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Soumyajit567/My_LeetCode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [0948-sort-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/0948-sort-an-array) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Soumyajit567/My_LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -209,4 +210,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/Soumyajit567/My_LeetCode/tree/master/0476-number-complement) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
