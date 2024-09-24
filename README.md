@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0726-number-of-atoms](https://github.com/Soumyajit567/My_LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Soumyajit567/My_LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
 ## String
 |  |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Soumyajit567/My_LeetCode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Soumyajit567/My_LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Soumyajit567/My_LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Soumyajit567/My_LeetCode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Sorting
 |  |
@@ -121,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Soumyajit567/My_LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Soumyajit567/My_LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Soumyajit567/My_LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Soumyajit567/My_LeetCode/tree/master/3482-construct-string-with-minimum-cost) |
@@ -215,4 +218,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Trie
+|  |
+| ------- |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Soumyajit567/My_LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 <!---LeetCode Topics End-->
