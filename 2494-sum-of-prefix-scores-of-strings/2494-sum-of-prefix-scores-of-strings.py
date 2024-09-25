@@ -1,26 +1,20 @@
-class TrieNode:
-    def __init__(self):
-        self.children = {}
-        self.count = 0
-
 class Solution:
     def sumPrefixScores(self, words: List[str]) -> List[int]:
-        root = TrieNode()
-        for word in words:
-            current = root
-            for char in word:
-                if char not in current.children:
-                    current.children[char] = TrieNode()
-                current = current.children[char]
-                current.count += 1
-        
-        result = []
-        for word in words:
-            current = root
-            score = 0
-            for char in word:
-                current = current.children[char]
-                score += current.count
-            result.append(score)
-        
-        return result
+        hashmap = {}
+        for w in words:
+            pref = ""
+            for ch in w:
+                pref += ch
+                if pref in hashmap:
+                    hashmap[pref] += 1
+                else:
+                    hashmap[pref] = 1
+        ans = []
+        for w in words:
+            count = 0
+            pref = ""
+            for ch in w:
+                pref += ch
+                count += hashmap[pref]
+            ans.append(count)
+        return ans
