@@ -6,7 +6,7 @@ class MyCircularDeque:
 
     def insertFront(self, value: int) -> bool:
         if len(self.deque) < self.k:
-            self.deque = [value] + self.deque
+            self.deque.insert(0, value)
             return True
         else:
             return False
