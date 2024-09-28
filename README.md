@@ -119,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Soumyajit567/My_LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Soumyajit567/My_LeetCode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
+| [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
 | [0948-sort-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/0948-sort-an-array) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -226,4 +227,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Soumyajit567/My_LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+## Linked List
+|  |
+| ------- |
+| [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
+## Design
+|  |
+| ------- |
+| [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
+## Queue
+|  |
+| ------- |
+| [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
 <!---LeetCode Topics End-->
