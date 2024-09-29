@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/0860-design-circular-queue) |
 | [0948-sort-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/0948-sort-an-array) |
+| [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
@@ -233,14 +234,21 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/0860-design-circular-queue) |
+| [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
 ## Design
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/0860-design-circular-queue) |
+| [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
 ## Queue
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/0860-design-circular-queue) |
+| [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
+## Data Stream
+|  |
+| ------- |
+| [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
 <!---LeetCode Topics End-->
