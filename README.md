@@ -125,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/0948-sort-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
+| [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0650-2-keys-keyboard](https://github.com/Soumyajit567/My_LeetCode/tree/master/0650-2-keys-keyboard) |
+| [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 | [2645-pass-the-pillow](https://github.com/Soumyajit567/My_LeetCode/tree/master/2645-pass-the-pillow) |
 ## Simulation
 |  |
@@ -254,4 +256,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
+## Number Theory
+|  |
+| ------- |
+| [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 <!---LeetCode Topics End-->
