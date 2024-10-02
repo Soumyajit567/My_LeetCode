@@ -14,11 +14,11 @@ func canArrange(arr []int, k int) bool {
 			if count%2 != 0 {
 				return false
 			}
-		} else if 2*remainder == k {
-			// For cases where k is even and remainder is k/2
-			if count%2 != 0 {
-				return false
-			}
+        // else if 2*remainder == k {
+		// 	// For cases where k is even and remainder is k/2
+		// 	if count%2 != 0 {
+		// 		return false
+		// 	}
 		} else {
 			// The count of a remainder must equal the count of its complement
 			complement := k - remainder
