@@ -3,7 +3,7 @@ func canArrange(arr []int, k int) bool {
 
 	// Count the frequency of each remainder
 	for _, num := range arr {
-		remainder := ((num % k) + k) % k // Handle negative numbers correctly
+		remainder := ((num % k) + k) % k// Handle negative numbers correctly
 		remainderCount[remainder]++
 	}
 
