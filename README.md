@@ -148,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/Soumyajit567/My_LeetCode/tree/master/0650-2-keys-keyboard) |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 | [2645-pass-the-pillow](https://github.com/Soumyajit567/My_LeetCode/tree/master/2645-pass-the-pillow) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -225,6 +226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0476-number-complement](https://github.com/Soumyajit567/My_LeetCode/tree/master/0476-number-complement) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Brainteaser
 |  |
 | ------- |
@@ -260,4 +262,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
+## Recursion
+|  |
+| ------- |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 <!---LeetCode Topics End-->
