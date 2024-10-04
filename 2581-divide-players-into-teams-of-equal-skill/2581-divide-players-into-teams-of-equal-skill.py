@@ -2,6 +2,28 @@ class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
         if len(skill) <= 1:
             return -1
+        
+        skill.sort()
+        n = len(skill)
+        total_skill = skill[0] + skill[-1]
+        
+        _sum = 0
+        
+        for i in range(n // 2):
+            if skill[i] + skill[~i] != total_skill:
+                return -1
+            
+            _sum += skill[i] * skill[~i]
+        
+        return _sum
+
+
+
+"""
+class Solution:
+    def dividePlayers(self, skill: List[int]) -> int:
+        if len(skill) <= 1:
+            return -1
         elif len(skill) == 2:
             return skill[0] * skill[1]
         else:
@@ -23,3 +45,4 @@ class Solution:
                 _sum += (a * b)
         
             return _sum
+"""
