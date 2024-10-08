@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
 | [0878-shifting-letters](https://github.com/Soumyajit567/My_LeetCode/tree/master/0878-shifting-letters) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Soumyajit567/My_LeetCode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -182,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/Soumyajit567/My_LeetCode/tree/master/0726-number-of-atoms) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 ## Suffix Array
@@ -238,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Soumyajit567/My_LeetCode/tree/master/0624-maximum-distance-in-arrays) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -286,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Soumyajit567/My_LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Binary Search
 |  |
