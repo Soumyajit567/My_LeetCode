@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/Soumyajit567/My_LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
 | [0878-shifting-letters](https://github.com/Soumyajit567/My_LeetCode/tree/master/0878-shifting-letters) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Soumyajit567/My_LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Soumyajit567/My_LeetCode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/Soumyajit567/My_LeetCode/tree/master/0726-number-of-atoms) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Soumyajit567/My_LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Soumyajit567/My_LeetCode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -242,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Soumyajit567/My_LeetCode/tree/master/0624-maximum-distance-in-arrays) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Soumyajit567/My_LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Bit Manipulation
 |  |
