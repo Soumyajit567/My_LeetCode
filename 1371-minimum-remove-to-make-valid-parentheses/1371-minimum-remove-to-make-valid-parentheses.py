@@ -1,19 +1,13 @@
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
-        stack = []  
-        to_remove = set()  
-        
-        for i, char in enumerate(s):
-            if char == '(':
-                stack.append(i)
-            elif char == ')':
-                if stack:
-                    stack.pop()  
-                else:
-                    to_remove.add(i)  
-
-        to_remove = to_remove.union(set(stack))
-
-        result = ''.join([char for i, char in enumerate(s) if i not in to_remove])
-        
-        return result
+        stack = []
+        popper = set()
+        for ch in range(len(s)):
+            if s[ch] == "(":
+                stack.append(ch)
+            elif s[ch] == ")":
+                stack.pop() if stack else popper.add(ch)
+        popper = popper.union(set(stack))
+        res = "".join([ch for idx, ch in enumerate(s) if idx not in popper])
+        return res
+            
