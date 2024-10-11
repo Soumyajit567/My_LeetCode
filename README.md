@@ -150,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Soumyajit567/My_LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Soumyajit567/My_LeetCode/tree/master/3482-construct-string-with-minimum-cost) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
+| [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/Soumyajit567/My_LeetCode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
 ## Matrix
 |  |
 | ------- |
@@ -165,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 | [2645-pass-the-pillow](https://github.com/Soumyajit567/My_LeetCode/tree/master/2645-pass-the-pillow) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/Soumyajit567/My_LeetCode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
 ## Simulation
 |  |
 | ------- |
