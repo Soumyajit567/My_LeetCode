@@ -13,7 +13,6 @@ class Solution:
                 for end in range(start + 1, n + 1):
                     sub = s[start:end]
                     if sub not in unique_substrings:
-                        unique_substrings.add(sub)
-                        stack.append((end, unique_substrings.copy()))
-                        unique_substrings.remove(sub)
+                        new_unique_substrings = unique_substrings | {sub}
+                        stack.append((end, new_unique_substrings))
         return max_len
