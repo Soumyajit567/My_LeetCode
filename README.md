@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/Soumyajit567/My_LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Soumyajit567/My_LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Soumyajit567/My_LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0878-shifting-letters](https://github.com/Soumyajit567/My_LeetCode/tree/master/0878-shifting-letters) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Soumyajit567/My_LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Soumyajit567/My_LeetCode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Soumyajit567/My_LeetCode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
@@ -309,4 +311,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
+## Backtracking
+|  |
+| ------- |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 <!---LeetCode Topics End-->
