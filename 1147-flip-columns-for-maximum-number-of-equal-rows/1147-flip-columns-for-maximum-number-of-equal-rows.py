@@ -3,8 +3,10 @@ class Solution:
         patterns = defaultdict(int)
         
         for row in matrix:
-            base_pattern = tuple(val == row[0] for val in row)
+            normal_pattern = tuple(row)
+            flipped_pattern = tuple(1 - val for val in row)
             
-            patterns[base_pattern] += 1
+            patterns[normal_pattern] += 1
+            patterns[flipped_pattern] += 1
         
         return max(patterns.values())
