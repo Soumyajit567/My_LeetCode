@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Soumyajit567/My_LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/Soumyajit567/My_LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Soumyajit567/My_LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Soumyajit567/My_LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3498-minimum-array-changes-to-make-differences-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/3498-minimum-array-changes-to-make-differences-equal) |
@@ -143,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Soumyajit567/My_LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
+| [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/Soumyajit567/My_LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Soumyajit567/My_LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -321,4 +323,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+## Sliding Window
+|  |
+| ------- |
+| [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/Soumyajit567/My_LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 <!---LeetCode Topics End-->
