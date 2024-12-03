@@ -112,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2232-adding-spaces-to-a-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Soumyajit567/My_LeetCode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Soumyajit567/My_LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
+| [2232-adding-spaces-to-a-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/Soumyajit567/My_LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Soumyajit567/My_LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -186,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [2232-adding-spaces-to-a-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Soumyajit567/My_LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2645-pass-the-pillow](https://github.com/Soumyajit567/My_LeetCode/tree/master/2645-pass-the-pillow) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -320,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1468-check-if-n-and-its-double-exist](https://github.com/Soumyajit567/My_LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Soumyajit567/My_LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2232-adding-spaces-to-a-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Soumyajit567/My_LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3584-find-the-lexicographically-smallest-valid-sequence](https://github.com/Soumyajit567/My_LeetCode/tree/master/3584-find-the-lexicographically-smallest-valid-sequence) |
 ## Binary Search
