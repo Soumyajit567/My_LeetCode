@@ -207,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Soumyajit567/My_LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2164-two-best-non-overlapping-events](https://github.com/Soumyajit567/My_LeetCode/tree/master/2164-two-best-non-overlapping-events) |
+| [2562-count-ways-to-build-good-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Soumyajit567/My_LeetCode/tree/master/3482-construct-string-with-minimum-cost) |
 | [3584-find-the-lexicographically-smallest-valid-sequence](https://github.com/Soumyajit567/My_LeetCode/tree/master/3584-find-the-lexicographically-smallest-valid-sequence) |
 ## Stack
