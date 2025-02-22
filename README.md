@@ -72,12 +72,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -88,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0545-boundary-of-binary-tree](https://github.com/Soumyajit567/My_LeetCode/tree/master/0545-boundary-of-binary-tree) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 ## Hash Table
 |  |
 | ------- |
@@ -110,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0807-custom-sort-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/0807-custom-sort-string) |
 | [0878-shifting-letters](https://github.com/Soumyajit567/My_LeetCode/tree/master/0878-shifting-letters) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Soumyajit567/My_LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Soumyajit567/My_LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Soumyajit567/My_LeetCode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
