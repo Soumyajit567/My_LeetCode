@@ -26,8 +26,8 @@ class Solution:
             points, skip = questions[i]
             next_q = i + skip + 1
             solve = points + (dp[next_q] if next_q < n else 0)
-            not_solve = dp[i + 1]
-            dp[i] = max(solve, not_solve)
+            skip = dp[i + 1]
+            dp[i] = max(solve, skip)
         return dp[0]
 
 
