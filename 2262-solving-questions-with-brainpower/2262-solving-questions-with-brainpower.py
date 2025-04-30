@@ -1,3 +1,4 @@
+"""
 class Solution:
     def mostPoints(self, questions: List[List[int]]) -> int:
         dp = {}
@@ -15,3 +16,18 @@ class Solution:
                 return dp[(i, j)]
         
         return memo(0, len(questions) - 1)
+"""
+
+class Solution:
+    def mostPoints(self, questions: List[List[int]]) -> int:
+        n = len(questions) 
+        dp = [0] * (n + 1)
+        for i in range(n - 1, -1, -1):
+            points, skip = questions[i]
+            next_q = i + skip + 1
+            solve = points + (dp[next_q] if next_q < n else 0)
+            not_solve = dp[i + 1]
+            dp[i] = max(solve, not_solve)
+        return dp[0]
+
+
