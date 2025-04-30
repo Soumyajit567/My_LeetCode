@@ -160,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2164-two-best-non-overlapping-events](https://github.com/Soumyajit567/My_LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2232-adding-spaces-to-a-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/Soumyajit567/My_LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
+| [2262-solving-questions-with-brainpower](https://github.com/Soumyajit567/My_LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Soumyajit567/My_LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -213,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Soumyajit567/My_LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2164-two-best-non-overlapping-events](https://github.com/Soumyajit567/My_LeetCode/tree/master/2164-two-best-non-overlapping-events) |
+| [2262-solving-questions-with-brainpower](https://github.com/Soumyajit567/My_LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2562-count-ways-to-build-good-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Soumyajit567/My_LeetCode/tree/master/3482-construct-string-with-minimum-cost) |
 | [3584-find-the-lexicographically-smallest-valid-sequence](https://github.com/Soumyajit567/My_LeetCode/tree/master/3584-find-the-lexicographically-smallest-valid-sequence) |
