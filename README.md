@@ -153,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0860-design-circular-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/0860-design-circular-queue) |
 | [0878-shifting-letters](https://github.com/Soumyajit567/My_LeetCode/tree/master/0878-shifting-letters) |
 | [0948-sort-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/0948-sort-an-array) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/Soumyajit567/My_LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Soumyajit567/My_LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Soumyajit567/My_LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Soumyajit567/My_LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -293,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Soumyajit567/My_LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Soumyajit567/My_LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/Soumyajit567/My_LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Soumyajit567/My_LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/Soumyajit567/My_LeetCode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
