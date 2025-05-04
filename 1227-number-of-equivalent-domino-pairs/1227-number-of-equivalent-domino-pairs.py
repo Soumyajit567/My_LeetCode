@@ -1,11 +1,11 @@
 class Solution:
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
-        count = defaultdict(int)
+        freq = [0] * 100
         pairs = 0
 
         for a, b in dominoes:
-            key = tuple(sorted((a, b)))  
-            pairs += count[key]         
-            count[key] += 1              
+            key = 10 * min(a, b) + max(a, b)
+            pairs += freq[key]
+            freq[key] += 1
 
         return pairs
