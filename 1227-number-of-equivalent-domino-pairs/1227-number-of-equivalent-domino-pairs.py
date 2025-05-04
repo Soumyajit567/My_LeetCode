@@ -1,6 +1,6 @@
 class Solution:
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
-        freq = [0] * 100
+        freq = [0] * 1000
         pairs = 0
 
         for a, b in dominoes:
