@@ -1,35 +1,35 @@
-from heapq import heappop, heappush
-
 class Solution:
     def maxValue(self, events: List[List[int]], k: int) -> int:
-        events.sort(key=lambda x: x[1])  # Sort by end time
-        dp = [[0] * (k + 1) for _ in range(len(events) + 1)]
+        events.sort()  # Sort by start day
+        n = len(events)
         
-        for i in range(1, len(events) + 1):
-            for j in range(1, k + 1):
-                # Find the previous non-overlapping event using binary search
-                prev_idx = self.findPrev(events, i - 1)
-                
-                # DP transition
-                dp[i][j] = max(dp[i - 1][j], dp[prev_idx + 1][j - 1] + events[i - 1][2])
+        # dp[i][j] = max value from events[i:] with j events left
+        dp = [[-1] * (k + 1) for _ in range(n + 1)]
         
-        return max(dp[-1])
-
-    def findPrev(self, events, idx):
-        # Binary search to find the previous non-overlapping event
-        left, right = 0, idx 
-        target = events[idx][0]
-        while left <= right:
-            mid = (left + right) // 2
-            if events[mid][1] < target:
-                left = mid + 1
-            else:
-                right = mid - 1
-        return left - 1
-
-
-
-
-
-
-
+        def binary_search(target):
+            left, right = 0, n
+            while left < right:
+                mid = (left + right) // 2
+                if events[mid][0] > target:
+                    right = mid
+                else:
+                    left = mid + 1
+            return left
+        
+        def dfs(i, k):
+            if k == 0 or i >= n:
+                return 0
+            if dp[i][k] != -1:
+                return dp[i][k]
+            
+            # Skip current event
+            max_value = dfs(i + 1, k)
+            
+            # Take current event
+            next_idx = binary_search(events[i][1])  # Find next non-overlapping event
+            max_value = max(max_value, events[i][2] + dfs(next_idx, k - 1))
+            
+            dp[i][k] = max_value
+            return max_value
+        
+        return dfs(0, k)
