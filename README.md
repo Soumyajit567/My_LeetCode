@@ -169,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/Soumyajit567/My_LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2262-solving-questions-with-brainpower](https://github.com/Soumyajit567/My_LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
+| [2316-count-hills-and-valleys-in-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Soumyajit567/My_LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
