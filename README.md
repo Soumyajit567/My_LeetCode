@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Soumyajit567/My_LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Binary Tree
 |  |
 | ------- |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2164-two-best-non-overlapping-events](https://github.com/Soumyajit567/My_LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Soumyajit567/My_LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
@@ -172,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Soumyajit567/My_LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
@@ -189,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Soumyajit567/My_LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Soumyajit567/My_LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Soumyajit567/My_LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
@@ -256,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0948-sort-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/0948-sort-an-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/Soumyajit567/My_LeetCode/tree/master/2164-two-best-non-overlapping-events) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Soumyajit567/My_LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Merge Sort
 |  |
@@ -357,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2232-adding-spaces-to-a-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Soumyajit567/My_LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [3584-find-the-lexicographically-smallest-valid-sequence](https://github.com/Soumyajit567/My_LeetCode/tree/master/3584-find-the-lexicographically-smallest-valid-sequence) |
 ## Binary Search
 |  |
@@ -378,4 +384,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Soumyajit567/My_LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+## Union Find
+|  |
+| ------- |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 <!---LeetCode Topics End-->
