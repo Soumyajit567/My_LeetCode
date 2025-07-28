@@ -165,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1767-design-front-middle-back-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/1767-design-front-middle-back-queue) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2164-two-best-non-overlapping-events](https://github.com/Soumyajit567/My_LeetCode/tree/master/2164-two-best-non-overlapping-events) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Soumyajit567/My_LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2232-adding-spaces-to-a-string](https://github.com/Soumyajit567/My_LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/Soumyajit567/My_LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2262-solving-questions-with-brainpower](https://github.com/Soumyajit567/My_LeetCode/tree/master/2262-solving-questions-with-brainpower) |
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Soumyajit567/My_LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Graph
@@ -312,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/Soumyajit567/My_LeetCode/tree/master/0476-number-complement) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Soumyajit567/My_LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -377,6 +380,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Soumyajit567/My_LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Sliding Window
 |  |
 | ------- |
