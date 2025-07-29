@@ -33,8 +33,8 @@ class Solution:
         
         # Find maximum OR by combining left and right
         max_or = 0
-        for l in left_ors:
-            for r in right_ors:
+        for l in left_ors.keys():
+            for r in right_ors.keys():
                 max_or = max(max_or, l | r)
         
         # Count subsets with maximum OR
