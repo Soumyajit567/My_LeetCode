@@ -155,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0859-design-circular-deque](https://github.com/Soumyajit567/My_LeetCode/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Soumyajit567/My_LeetCode/tree/master/0860-design-circular-queue) |
 | [0878-shifting-letters](https://github.com/Soumyajit567/My_LeetCode/tree/master/0878-shifting-letters) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Soumyajit567/My_LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0948-sort-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/0948-sort-an-array) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Soumyajit567/My_LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Soumyajit567/My_LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0650-2-keys-keyboard](https://github.com/Soumyajit567/My_LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Soumyajit567/My_LeetCode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Soumyajit567/My_LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Soumyajit567/My_LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -315,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/Soumyajit567/My_LeetCode/tree/master/0476-number-complement) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Soumyajit567/My_LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Soumyajit567/My_LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Soumyajit567/My_LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Soumyajit567/My_LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
