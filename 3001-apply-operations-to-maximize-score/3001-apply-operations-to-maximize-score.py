@@ -47,7 +47,7 @@ class Solution:
             right_choices = next_block[i] - i
             cnt = left_choices * right_choices  # number of subarrays where i is chosen
             if cnt > 0:
-                items.append((nums[i], cnt, i))
+                items.append((nums[i], cnt))
 
         # Sort by value descending (we want largest multipliers first)
         items.sort(key=lambda x: -x[0])
@@ -64,7 +64,7 @@ class Solution:
 
         score = 1
         remaining = k
-        for val, avail, _ in items:
+        for val, avail in items:
             if remaining == 0:
                 break
             take = min(avail, remaining)
