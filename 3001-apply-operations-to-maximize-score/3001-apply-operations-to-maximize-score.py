@@ -34,8 +34,7 @@ class Solution:
         for i in range(n - 1, -1, -1):
             while stack:
                 pj = stack[-1]
-                if (prime_score[nums[pj]] > prime_score[nums[i]] or
-                    (prime_score[nums[pj]] == prime_score[nums[i]] and pj < i)):
+                if (prime_score[nums[pj]] > prime_score[nums[i]] ):
                     break
                 stack.pop()
             next_block[i] = stack[-1] if stack else n
