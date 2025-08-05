@@ -193,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/Soumyajit567/My_LeetCode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Soumyajit567/My_LeetCode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/Soumyajit567/My_LeetCode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
+| [3790-fruits-into-baskets-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -222,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2645-pass-the-pillow](https://github.com/Soumyajit567/My_LeetCode/tree/master/2645-pass-the-pillow) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
+| [3790-fruits-into-baskets-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -388,6 +390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2164-two-best-non-overlapping-events](https://github.com/Soumyajit567/My_LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Soumyajit567/My_LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
+| [3790-fruits-into-baskets-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -407,4 +410,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+## Segment Tree
+|  |
+| ------- |
+| [3790-fruits-into-baskets-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3790-fruits-into-baskets-ii) |
+## Ordered Set
+|  |
+| ------- |
+| [3790-fruits-into-baskets-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 <!---LeetCode Topics End-->
