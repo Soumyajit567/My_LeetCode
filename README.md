@@ -143,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
+| [2818-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/Soumyajit567/My_LeetCode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
@@ -182,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Soumyajit567/My_LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/Soumyajit567/My_LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
+| [2818-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Soumyajit567/My_LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Soumyajit567/My_LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
 | [2645-pass-the-pillow](https://github.com/Soumyajit567/My_LeetCode/tree/master/2645-pass-the-pillow) |
+| [2818-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2818-apply-operations-to-maximize-score) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Soumyajit567/My_LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/Soumyajit567/My_LeetCode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
@@ -249,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Soumyajit567/My_LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [2818-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2846-robot-collisions](https://github.com/Soumyajit567/My_LeetCode/tree/master/2846-robot-collisions) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Soumyajit567/My_LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -316,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Soumyajit567/My_LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Soumyajit567/My_LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Soumyajit567/My_LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2818-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2818-apply-operations-to-maximize-score) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Soumyajit567/My_LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/Soumyajit567/My_LeetCode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
@@ -366,6 +371,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/Soumyajit567/My_LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
+| [2818-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2818-apply-operations-to-maximize-score) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Recursion
 |  |
@@ -405,6 +411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Soumyajit567/My_LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [2818-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/2818-apply-operations-to-maximize-score) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Soumyajit567/My_LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Union Find
 |  |
