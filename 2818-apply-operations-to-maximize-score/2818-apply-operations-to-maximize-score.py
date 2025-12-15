@@ -1,87 +1,82 @@
-from typing import List
-
-MOD = 10**9 + 7
-
 class Solution:
     def maximumScore(self, nums: List[int], k: int) -> int:
+        MOD = 10**9 + 7
         n = len(nums)
-        if n == 0: 
-            return 1
-
-        maxA = max(nums)
-        # Sieve for smallest prime factor (SPF)
-        spf = list(range(maxA + 1))
-        for p in range(2, int(maxA**0.5) + 1):
-            if spf[p] == p:
-                step = p
-                start = p * p
-                for multiple in range(start, maxA + 1, step):
-                    if spf[multiple] == multiple:
-                        spf[multiple] = p
-
-        # function to count distinct prime factors using spf
-        def distinct_pf(x: int) -> int:
-            last = 0
-            cnt = 0
-            while x > 1:
-                p = spf[x]
-                if p != last:
-                    cnt += 1
-                    last = p
-                while x % p == 0:
-                    x //= p
-            return cnt
-
-        # prime scores array
-        ps = [distinct_pf(v) for v in nums]
-
-        # compute previous greater (or equal with smaller index) L: index of last element to left
-        L = [-1] * n
+        
+        # Calculate prime scores for all numbers
+        def get_prime_score(num):
+            if num <= 1:
+                return 0
+            count = 0
+            # Check for factor 2
+            if num % 2 == 0:
+                count += 1
+                while num % 2 == 0:
+                    num //= 2
+            # Check for odd factors
+            i = 3
+            while i * i <= num:
+                if num % i == 0:
+                    count += 1
+                    while num % i == 0:
+                        num //= i
+                i += 2
+            # If num > 1, then it's a prime factor
+            if num > 1:
+                count += 1
+            return count
+        
+        prime_scores = [get_prime_score(num) for num in nums]
+        
+        # For each index i, find the range where nums[i] can be selected
+        # Left[i] = leftmost index where nums[i] has highest prime score
+        # Right[i] = rightmost index where nums[i] has highest prime score
+        
+        # Find left boundaries (nearest element to the left with prime_score > prime_scores[i])
+        left = [-1] * n
         stack = []
         for i in range(n):
-            # while top has prime-score < current's prime-score OR
-            # prime-score == current's prime-score and top index > i (we want smaller index to win,
-            # so those with smaller index should be considered "greater or equal" so they block).
-            # For previous greater we pop while top's prime-score < current prime-score
-            # or (top's prime-score == current and top index > current) - but top index is always < i, so tie handled by not popping when equal.
-            while stack and ps[stack[-1]] < ps[i]:
+            while stack and prime_scores[stack[-1]] < prime_scores[i]:
                 stack.pop()
-            # If equal prime-score, we should keep previous (smaller index) to block current.
-            L[i] = stack[-1] if stack else -1
+            if stack:
+                left[i] = stack[-1]
             stack.append(i)
-
-        # compute next greater to right: R index of next element to right that blocks i
-        R = [n] * n
+        
+        # Find right boundaries (nearest element to the right with prime_score >= prime_scores[i])
+        # We use >= to handle ties (smaller index wins)
+        right = [n] * n
         stack = []
-        for i in range(n-1, -1, -1):
-            # For right side, we pop while top's prime-score <= current's prime-score
-            # because if equal prime-score, the smaller index (which is current when scanning right to left)
-            # should win, so the right element with equal score must be considered as blocked by current,
-            # thus it should not block current; so for current we need first index to right with strictly greater prime-score
-            # or equal but smaller index (which cannot be because right index > current), so we pop when ps[top] <= ps[i].
-            while stack and ps[stack[-1]] <= ps[i]:
+        for i in range(n - 1, -1, -1):
+            while stack and prime_scores[stack[-1]] <= prime_scores[i]:
                 stack.pop()
-            R[i] = stack[-1] if stack else n
+            if stack:
+                right[i] = stack[-1]
             stack.append(i)
-
-        # Each index i can be chosen cnt = (i - L[i]) * (R[i] - i) times
-        items = []
+        
+        # Calculate how many times each element can be selected
+        # Element at index i can be selected in subarrays [l, r] where:
+        # left[i] < l <= i and i <= r < right[i]
+        contributions = []
         for i in range(n):
-            cnt = (i - L[i]) * (R[i] - i)
-            items.append((nums[i], cnt))
-
-        # Sort items descending by value so we take biggest nums first
-        items.sort(key=lambda x: -x[0])
-
-        # Greedily use counts up to k
-        res = 1
-        rem = k
-        for val, cnt in items:
-            if rem == 0:
+            left_count = i - left[i]  # number of valid left boundaries
+            right_count = right[i] - i  # number of valid right boundaries
+            times = left_count * right_count
+            contributions.append((nums[i], times))
+        
+        # Sort by value in descending order
+        contributions.sort(reverse=True)
+        
+        # Greedily select the largest values
+        score = 1
+        operations = 0
+        
+        for value, times in contributions:
+            if operations >= k:
                 break
-            use = cnt if cnt <= rem else rem
-            # modular exponentiation
-            res = (res * pow(val, use, MOD)) % MOD
-            rem -= use
-
-        return res
+            # Take min(times, k - operations) of this value
+            take = min(times, k - operations)
+            # Multiply score by value^take
+            score = (score * pow(value, take, MOD)) % MOD
+            operations += take
+        
+        return score
